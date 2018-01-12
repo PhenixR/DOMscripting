@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(58, 57, 58);
+    font-size: 76%;
+    font-family: "Helvetica","Arial",sans-serif;
+    .header {
+        background-color: #334;
+        .header_nav {
+            background-image: url(../images/navbar.gif) ;
+            .header_ul {
+                height: 30px;
+                display: flex;
+                list-style-type: none;
+                align-items: center;
+                overflow: hidden;
+                margin: 0 40px;
+                border-left: 1px solid;
+                border-color: #99a;
+                .header_li {
+                    .header_link {
+                        color: white;
+                        text-decoration: none;
+                        padding: 10px 20px;
+                        border-right: 1px solid;
+                        border-color: #99a;
+                        &:active {
+                            color: #667;
+                            background-color: #ec8;
+                        }
+                        &:hover {
+                            color: #445;
+                            background-color: #eb6;
+                        }
+                    }
+                    a#here:link,
+                    a#here:visited,
+                    a#here:hover,
+                    a#here:active {
+                        color: #eef;
+                        background-color: #799;
+                    }
+                }
+            }
+        }
+    }
+    .contant {
+        background-color: #edc;
+        overflow: hidden;
+        padding: 40px 50px 35px;
+        h1 {
+            margin: 0 0 10px;
+        }
+        ul {
+            li {
+                margin-bottom: 5px;
+                a {
+                    color: black;
+                }
+            }
+        }
+        .preview_pic {
+            margin: 20px 0px 0px;
+            width: 150px;
+            height: 150px;
+            overflow: hidden;
+            border-radius: 20px;
+        }
+        .preview {
+            list-style-type: none;
+        } 
+        table {
+            thead {
+                tr {
+                    th {
+                        color: white;
+                        background-color: rgb(46, 45, 45);
+                        padding: 10px 30px;
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    td {
+                        color: gold;
+                        background-color:  purple;
+                        padding: 12px 30px;
+                    }
+                }
+                tr.odd {
+                    td {
+                    color: gold;
+                    background-color: rgb(184, 3, 184);
+                    }
+                }
+                tr.highlight {
+                    td {
+                    color: gold;
+                    background-color: rgb(255, 0, 255);
+                    }
+                }
+            }
+        }
+    }
+}

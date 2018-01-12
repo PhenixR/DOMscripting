@@ -1,0 +1,67 @@
+body {
+  background-color: #3a393a;
+  font-size: 76%;
+  font-family: "Helvetica","Arial",sans-serif; }
+  body .header {
+    background-color: #334; }
+    body .header .header_nav {
+      background-image: url(../images/navbar.gif); }
+      body .header .header_nav .header_ul {
+        height: 30px;
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        overflow: hidden;
+        margin: 0 40px;
+        border-left: 1px solid;
+        border-color: #99a; }
+        body .header .header_nav .header_ul .header_li .header_link {
+          color: white;
+          text-decoration: none;
+          padding: 10px 20px;
+          border-right: 1px solid;
+          border-color: #99a; }
+          body .header .header_nav .header_ul .header_li .header_link:active {
+            color: #667;
+            background-color: #ec8; }
+          body .header .header_nav .header_ul .header_li .header_link:hover {
+            color: #445;
+            background-color: #eb6; }
+        body .header .header_nav .header_ul .header_li a#here:link,
+        body .header .header_nav .header_ul .header_li a#here:visited,
+        body .header .header_nav .header_ul .header_li a#here:hover,
+        body .header .header_nav .header_ul .header_li a#here:active {
+          color: #eef;
+          background-color: #799; }
+  body .contant {
+    background-color: #edc;
+    overflow: hidden;
+    padding: 40px 50px 35px; }
+    body .contant h1 {
+      margin: 0 0 10px; }
+    body .contant ul li {
+      margin-bottom: 5px; }
+      body .contant ul li a {
+        color: black; }
+    body .contant .preview_pic {
+      margin: 20px 0px 0px;
+      width: 150px;
+      height: 150px;
+      overflow: hidden;
+      border-radius: 20px; }
+    body .contant .preview {
+      list-style-type: none; }
+    body .contant table thead tr th {
+      color: white;
+      background-color: #2e2d2d;
+      padding: 10px 30px; }
+    body .contant table tbody tr td {
+      color: gold;
+      background-color: purple;
+      padding: 12px 30px; }
+    body .contant table tbody tr.odd td {
+      color: gold;
+      background-color: #b803b8; }
+    body .contant table tbody tr.highlight td {
+      color: gold;
+      background-color: magenta; }

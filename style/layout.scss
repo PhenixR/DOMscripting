@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+.header {
+    background-image: url(../images/guitarist.gif);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-width: .1em;
+    border-style: solid;
+    border-color: rgba(122, 122, 122, 0.37);
+    border-bottom-width: 0;
+}
+.about .header {
+    background-image: url(../images/lineup.gif);
+}
+.photos .header {
+    background-image: url(../images/basshead.gif);
+}
+.live .header {
+    background-image: url(../images/bassist.gif);
+}
+.contact .header {
+    background-image: url(../images/drummer.gif);
+}
+body {
+    margin: 1em 10%;
+    .header {}
+    .contant {
+        .preview_pic {
+            position: relative;
+        }
+        .preview {
+            display: flex;
+        }
+        .form {
+            p {
+                margin: 1em 0;
+            }
+            label {
+                display: block;
+            }
+        }
+        h3 {
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+        dl {
+            display: flex;
+            dt {
+                margin-right: 5px;
+            }
+            dd {
+                margin-right: 15px;
+            }
+        }
+    }
+}
